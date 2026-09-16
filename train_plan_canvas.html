@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <style>
+    body { margin: 0; background: #071523; font-family: 'Segoe UI', sans-serif; color: #eef6ff; display: flex; align-items: center; justify-content: center; min-height: 100vh; }
+    .shell { width: 920px; background: #0b1524; border: 1px solid #314b75; border-radius: 20px; padding: 20px; box-shadow: 0 20px 80px rgba(0,0,0,0.45); }
+    .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+    .title { font-size: 30px; font-weight: 800; }
+    .tag { border: 1px solid #345074; color: #8fffc1; background: rgba(143,255,193,0.05); border-radius: 999px; padding: 6px 12px; text-transform: uppercase; font-size: 10px; letter-spacing: 0.12em; }
+    .route-board { background: #101a2c; border: 1px solid #314b75; border-radius: 18px; padding: 18px; }
+    svg { width: 100%; height: 260px; background: linear-gradient(180deg, rgba(20,30,50,0.75), rgba(11,21,36,0.95)); border-radius: 10px; }
+    .route-line { fill: none; stroke: #8fffc1; stroke-width: 3; stroke-linecap: round; stroke-dasharray: 10 8; }
+    .route-row { display: flex; gap: 12px; margin-top: 18px; overflow: hidden; }
+    .card { display: flex; align-items: center; gap: 12px; background: rgba(18, 31, 49, 1); border: 1px solid #314b75; border-radius: 12px; padding: 10px 12px; width: 150px; }
+    .step { width: 28px; height: 28px; background: #8fffc1; color: #071523; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 800; }
+    .detail { display: flex; flex-direction: column; }
+    .detail strong { font-size: 13px; }
+    .detail span { font-size: 10px; color: #aebde0; }
+  </style>
+</head>
+<body>
+  <section class="shell">
+    <section class="header">
+      <div class="title">CMRC Train Plan</div>
+      <div class="tag">Route Active</div>
+    </section>
+    <section class="route-board">
+      <svg viewBox="0 0 900 260" preserveAspectRatio="none" aria-label="train route">
+        <defs>
+          <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+            <polygon points="0 0, 8 4, 0 8" fill="#8fffc1" />
+          </marker>
+        </defs>
+        <path d="M 70 200 L 200 200" class="route-line" /><path d="M 200 200 L 330 200" class="route-line" /><path d="M 330 200 L 460 200" class="route-line" /><path d="M 460 200 L 590 200" class="route-line" /><path d="M 590 200 L 720 200" class="route-line" /><path d="M 720 200 L 850 200" class="route-line" /><path d="M 850 200 L 980 200" class="route-line" /><path d="M 980 200 L 1110 200" class="route-line" /><path d="M 1110 200 L 1240 200" class="route-line" /><path d="M 1240 200 L 1370 200" class="route-line" /><path d="M 1370 200 L 1500 200" class="route-line" /><path d="M 1500 200 L 1630 200" class="route-line" />
+      </svg>
+      <div class="route-row">
+        <div class="card"><div class="step">1</div><div class="detail"><strong>Therizó</strong><span>TerminusHex</span></div></div><div class="card"><div class="step">2</div><div class="detail"><strong>Cerberus Wake</strong><span>TerminusHex</span></div></div><div class="card"><div class="step">3</div><div class="detail"><strong>Camp Omicron</strong><span>AcrithiaHex</span></div></div><div class="card"><div class="step">4</div><div class="detail"><strong>Simo&#x27;s Run</strong><span>ShackledChasmHex</span></div></div><div class="card"><div class="step">5</div><div class="detail"><strong>The Vanguard</strong><span>ShackledChasmHex</span></div></div><div class="card"><div class="step">6</div><div class="detail"><strong>Firstmarch</strong><span>ShackledChasmHex</span></div></div><div class="card"><div class="step">7</div><div class="detail"><strong>The Grave of Erastos</strong><span>ShackledChasmHex</span></div></div><div class="card"><div class="step">8</div><div class="detail"><strong>Coaldrifter Stead</strong><span>DrownedValeHex</span></div></div><div class="card"><div class="step">9</div><div class="detail"><strong>Splinter Pens</strong><span>DrownedValeHex</span></div></div><div class="card"><div class="step">10</div><div class="detail"><strong>Vessel</strong><span>DrownedValeHex</span></div></div><div class="card"><div class="step">11</div><div class="detail"><strong>Eastmarch</strong><span>DrownedValeHex</span></div></div><div class="card"><div class="step">12</div><div class="detail"><strong>The Wash</strong><span>DrownedValeHex</span></div></div><div class="card"><div class="step">13</div><div class="detail"><strong>The Baths</strong><span>DrownedValeHex</span></div></div>
+      </div>
+    </section>
+  </section>
+</body>
+</html>

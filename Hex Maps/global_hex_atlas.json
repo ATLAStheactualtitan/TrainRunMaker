@@ -1,0 +1,1237 @@
+{
+  "schema_version": 2,
+  "source": {
+    "manifest": "missing (fallback to built-in layout)",
+    "layout_basis": "User-defined explicit grid (vertical 1, horizontal 0.5 units)"
+  },
+  "tile": {
+    "width": 1024,
+    "height": 888,
+    "x_step": 0.75,
+    "y_step": 0.5,
+    "scale_x": 1024,
+    "scale_y": 888
+  },
+  "summary": {
+    "manifest_region_count": 53,
+    "atlas_region_count": 53,
+    "missing_from_layout": [],
+    "not_in_manifest": []
+  },
+  "regions": {
+    "BasinSionnachHex": {
+      "region": "BasinSionnachHex",
+      "display_name": "BasinSionnach",
+      "stitch": {
+        "column": 7,
+        "row": 0
+      },
+      "pixel": {
+        "tile_x": 5376,
+        "tile_y": 0,
+        "tile_w": 1024,
+        "tile_h": 888,
+        "center_x": 5888.0,
+        "center_y": 444.0
+      },
+      "neighbors": [
+        "HowlCountyHex",
+        "ReachingTrailHex",
+        "SpeakingWoodsHex"
+      ]
+    },
+    "SpeakingWoodsHex": {
+      "region": "SpeakingWoodsHex",
+      "display_name": "SpeakingWoods",
+      "stitch": {
+        "column": 6,
+        "row": 1
+      },
+      "pixel": {
+        "tile_x": 4608,
+        "tile_y": 444,
+        "tile_w": 1024,
+        "tile_h": 888,
+        "center_x": 5120.0,
+        "center_y": 888.0
+      },
+      "neighbors": [
+        "BasinSionnachHex",
+        "CallumsCapeHex",
+        "MooringCountyHex",
+        "ReachingTrailHex"
+      ]
+    },
+    "HowlCountyHex": {
+      "region": "HowlCountyHex",
+      "display_name": "HowlCounty",
+      "stitch": {
+        "column": 8,
+        "row": 1
+      },
+      "pixel": {
+        "tile_x": 6144,
+        "tile_y": 444,
+        "tile_w": 1024,
+        "tile_h": 888,
+        "center_x": 6656.0,
+        "center_y": 888.0
+      },
+      "neighbors": [
+        "BasinSionnachHex",
+        "ClansheadValleyHex",
+        "ReachingTrailHex",
+        "ViperPitHex"
+      ]
+    },
+    "KuuraStrandHex": {
+      "region": "KuuraStrandHex",
+      "display_name": "KuuraStrand",
+      "stitch": {
+        "column": 3,
+        "row": 2
+      },
+      "pixel": {
+        "tile_x": 2304,
+        "tile_y": 888,
+        "tile_w": 1024,
+        "tile_h": 888,
+        "center_x": 2816.0,
+        "center_y": 1332.0
+      },
+      "neighbors": [
+        "GutterHex",
+        "NevishLineHex",
+        "PariPeakHex"
+      ]
+    },
+    "CallumsCapeHex": {
+      "region": "CallumsCapeHex",
+      "display_name": "CallumsCape",
+      "stitch": {
+        "column": 5,
+        "row": 2
+      },
+      "pixel": {
+        "tile_x": 3840,
+        "tile_y": 888,
+        "tile_w": 1024,
+        "tile_h": 888,
+        "center_x": 4352.0,
+        "center_y": 1332.0
+      },
+      "neighbors": [
+        "MooringCountyHex",
+        "NevishLineHex",
+        "SpeakingWoodsHex",
+        "StonecradleHex"
+      ]
+    },
+    "ReachingTrailHex": {
+      "region": "ReachingTrailHex",
+      "display_name": "ReachingTrail",
+      "stitch": {
+        "column": 7,
+        "row": 2
+      },
+      "pixel": {
+        "tile_x": 5376,
+        "tile_y": 888,
+        "tile_w": 1024,
+        "tile_h": 888,
+        "center_x": 5888.0,
+        "center_y": 1332.0
+      },
+      "neighbors": [
+        "BasinSionnachHex",
+        "CallahansPassageHex",
+        "HowlCountyHex",
+        "MooringCountyHex",
+        "SpeakingWoodsHex",
+        "ViperPitHex"
+      ]
+    },
+    "ClansheadValleyHex": {
+      "region": "ClansheadValleyHex",
+      "display_name": "ClansheadValley",
+      "stitch": {
+        "column": 9,
+        "row": 2
+      },
+      "pixel": {
+        "tile_x": 6912,
+        "tile_y": 888,
+        "tile_w": 1024,
+        "tile_h": 888,
+        "center_x": 7424.0,
+        "center_y": 1332.0
+      },
+      "neighbors": [
+        "HowlCountyHex",
+        "MorgensCrossingHex",
+        "ViperPitHex",
+        "WeatheredExpanseHex"
+      ]
+    },
+    "PariPeakHex": {
+      "region": "PariPeakHex",
+      "display_name": "PariPeak",
+      "stitch": {
+        "column": 2,
+        "row": 3
+      },
+      "pixel": {
+        "tile_x": 1536,
+        "tile_y": 1332,
+        "tile_w": 1024,
+        "tile_h": 888,
+        "center_x": 2048.0,
+        "center_y": 1776.0
+      },
+      "neighbors": [
+        "GutterHex",
+        "KuuraStrandHex",
+        "OlavisWakeHex",
+        "PalantineBermHex"
+      ]
+    },
+    "NevishLineHex": {
+      "region": "NevishLineHex",
+      "display_name": "NevishLine",
+      "stitch": {
+        "column": 4,
+        "row": 3
+      },
+      "pixel": {
+        "tile_x": 3072,
+        "tile_y": 1332,
+        "tile_w": 1024,
+        "tile_h": 888,
+        "center_x": 3584.0,
+        "center_y": 1776.0
+      },
+      "neighbors": [
+        "CallumsCapeHex",
+        "FarranacCoastHex",
+        "GutterHex",
+        "KuuraStrandHex",
+        "StonecradleHex"
+      ]
+    },
+    "MooringCountyHex": {
+      "region": "MooringCountyHex",
+      "display_name": "Mooring County",
+      "stitch": {
+        "column": 6,
+        "row": 3
+      },
+      "pixel": {
+        "tile_x": 4608,
+        "tile_y": 1332,
+        "tile_w": 1024,
+        "tile_h": 888,
+        "center_x": 5120.0,
+        "center_y": 1776.0
+      },
+      "neighbors": [
+        "CallahansPassageHex",
+        "CallumsCapeHex",
+        "LinnMercyHex",
+        "ReachingTrailHex",
+        "SpeakingWoodsHex",
+        "StonecradleHex"
+      ]
+    },
+    "ViperPitHex": {
+      "region": "ViperPitHex",
+      "display_name": "ViperPit",
+      "stitch": {
+        "column": 8,
+        "row": 3
+      },
+      "pixel": {
+        "tile_x": 6144,
+        "tile_y": 1332,
+        "tile_w": 1024,
+        "tile_h": 888,
+        "center_x": 6656.0,
+        "center_y": 1776.0
+      },
+      "neighbors": [
+        "CallahansPassageHex",
+        "ClansheadValleyHex",
+        "HowlCountyHex",
+        "MarbanHollow",
+        "ReachingTrailHex",
+        "WeatheredExpanseHex"
+      ]
+    },
+    "MorgensCrossingHex": {
+      "region": "MorgensCrossingHex",
+      "display_name": "MorgensCrossing",
+      "stitch": {
+        "column": 10,
+        "row": 3
+      },
+      "pixel": {
+        "tile_x": 7680,
+        "tile_y": 1332,
+        "tile_w": 1024,
+        "tile_h": 888,
+        "center_x": 8192.0,
+        "center_y": 1776.0
+      },
+      "neighbors": [
+        "ClansheadValleyHex",
+        "GodcroftsHex",
+        "StlicanShelfHex",
+        "WeatheredExpanseHex"
+      ]
+    },
+    "OlavisWakeHex": {
+      "region": "OlavisWakeHex",
+      "display_name": "OlavisWake",
+      "stitch": {
+        "column": 1,
+        "row": 4
+      },
+      "pixel": {
+        "tile_x": 768,
+        "tile_y": 1776,
+        "tile_w": 1024,
+        "tile_h": 888,
+        "center_x": 1280.0,
+        "center_y": 2220.0
+      },
+      "neighbors": [
+        "PalantineBermHex",
+        "PariPeakHex"
+      ]
+    },
+    "GutterHex": {
+      "region": "GutterHex",
+      "display_name": "Gutter",
+      "stitch": {
+        "column": 3,
+        "row": 4
+      },
+      "pixel": {
+        "tile_x": 2304,
+        "tile_y": 1776,
+        "tile_w": 1024,
+        "tile_h": 888,
+        "center_x": 2816.0,
+        "center_y": 2220.0
+      },
+      "neighbors": [
+        "FarranacCoastHex",
+        "FishermansRowHex",
+        "KuuraStrandHex",
+        "NevishLineHex",
+        "PalantineBermHex",
+        "PariPeakHex"
+      ]
+    },
+    "StonecradleHex": {
+      "region": "StonecradleHex",
+      "display_name": "Stonecradle",
+      "stitch": {
+        "column": 5,
+        "row": 4
+      },
+      "pixel": {
+        "tile_x": 3840,
+        "tile_y": 1776,
+        "tile_w": 1024,
+        "tile_h": 888,
+        "center_x": 4352.0,
+        "center_y": 2220.0
+      },
+      "neighbors": [
+        "CallumsCapeHex",
+        "FarranacCoastHex",
+        "KingsCageHex",
+        "LinnMercyHex",
+        "MooringCountyHex",
+        "NevishLineHex"
+      ]
+    },
+    "CallahansPassageHex": {
+      "region": "CallahansPassageHex",
+      "display_name": "CallahansPassage",
+      "stitch": {
+        "column": 7,
+        "row": 4
+      },
+      "pixel": {
+        "tile_x": 5376,
+        "tile_y": 1776,
+        "tile_w": 1024,
+        "tile_h": 888,
+        "center_x": 5888.0,
+        "center_y": 2220.0
+      },
+      "neighbors": [
+        "DeadLandsHex",
+        "LinnMercyHex",
+        "MarbanHollow",
+        "MooringCountyHex",
+        "ReachingTrailHex",
+        "ViperPitHex"
+      ]
+    },
+    "WeatheredExpanseHex": {
+      "region": "WeatheredExpanseHex",
+      "display_name": "WeatheredExpanse",
+      "stitch": {
+        "column": 9,
+        "row": 4
+      },
+      "pixel": {
+        "tile_x": 6912,
+        "tile_y": 1776,
+        "tile_w": 1024,
+        "tile_h": 888,
+        "center_x": 7424.0,
+        "center_y": 2220.0
+      },
+      "neighbors": [
+        "ClahstraHex",
+        "ClansheadValleyHex",
+        "MarbanHollow",
+        "MorgensCrossingHex",
+        "StlicanShelfHex",
+        "ViperPitHex"
+      ]
+    },
+    "GodcroftsHex": {
+      "region": "GodcroftsHex",
+      "display_name": "Godcrofts",
+      "stitch": {
+        "column": 11,
+        "row": 4
+      },
+      "pixel": {
+        "tile_x": 8448,
+        "tile_y": 1776,
+        "tile_w": 1024,
+        "tile_h": 888,
+        "center_x": 8960.0,
+        "center_y": 2220.0
+      },
+      "neighbors": [
+        "LykosIsleHex",
+        "MorgensCrossingHex",
+        "StlicanShelfHex",
+        "TempestIslandHex"
+      ]
+    },
+    "PalantineBermHex": {
+      "region": "PalantineBermHex",
+      "display_name": "PalantineBerm",
+      "stitch": {
+        "column": 2,
+        "row": 5
+      },
+      "pixel": {
+        "tile_x": 1536,
+        "tile_y": 2220,
+        "tile_w": 1024,
+        "tile_h": 888,
+        "center_x": 2048.0,
+        "center_y": 2664.0
+      },
+      "neighbors": [
+        "FishermansRowHex",
+        "GutterHex",
+        "OarbreakerHex",
+        "OlavisWakeHex",
+        "PariPeakHex"
+      ]
+    },
+    "FarranacCoastHex": {
+      "region": "FarranacCoastHex",
+      "display_name": "FarranacCoast",
+      "stitch": {
+        "column": 4,
+        "row": 5
+      },
+      "pixel": {
+        "tile_x": 3072,
+        "tile_y": 2220,
+        "tile_w": 1024,
+        "tile_h": 888,
+        "center_x": 3584.0,
+        "center_y": 2664.0
+      },
+      "neighbors": [
+        "FishermansRowHex",
+        "GutterHex",
+        "KingsCageHex",
+        "NevishLineHex",
+        "StonecradleHex",
+        "WestgateHex"
+      ]
+    },
+    "LinnMercyHex": {
+      "region": "LinnMercyHex",
+      "display_name": "The Linn of Mercy",
+      "stitch": {
+        "column": 6,
+        "row": 5
+      },
+      "pixel": {
+        "tile_x": 4608,
+        "tile_y": 2220,
+        "tile_w": 1024,
+        "tile_h": 888,
+        "center_x": 5120.0,
+        "center_y": 2664.0
+      },
+      "neighbors": [
+        "CallahansPassageHex",
+        "DeadLandsHex",
+        "KingsCageHex",
+        "LochMorHex",
+        "MooringCountyHex",
+        "StonecradleHex"
+      ]
+    },
+    "MarbanHollow": {
+      "region": "MarbanHollow",
+      "display_name": "MarbanHollow",
+      "stitch": {
+        "column": 8,
+        "row": 5
+      },
+      "pixel": {
+        "tile_x": 6144,
+        "tile_y": 2220,
+        "tile_w": 1024,
+        "tile_h": 888,
+        "center_x": 6656.0,
+        "center_y": 2664.0
+      },
+      "neighbors": [
+        "CallahansPassageHex",
+        "ClahstraHex",
+        "DeadLandsHex",
+        "DrownedValeHex",
+        "ViperPitHex",
+        "WeatheredExpanseHex"
+      ]
+    },
+    "StlicanShelfHex": {
+      "region": "StlicanShelfHex",
+      "display_name": "Stlican Shelf",
+      "stitch": {
+        "column": 10,
+        "row": 5
+      },
+      "pixel": {
+        "tile_x": 7680,
+        "tile_y": 2220,
+        "tile_w": 1024,
+        "tile_h": 888,
+        "center_x": 8192.0,
+        "center_y": 2664.0
+      },
+      "neighbors": [
+        "ClahstraHex",
+        "EndlessShoreHex",
+        "GodcroftsHex",
+        "MorgensCrossingHex",
+        "TempestIslandHex",
+        "WeatheredExpanseHex"
+      ]
+    },
+    "LykosIsleHex": {
+      "region": "LykosIsleHex",
+      "display_name": "LykosIsle",
+      "stitch": {
+        "column": 12,
+        "row": 5
+      },
+      "pixel": {
+        "tile_x": 9216,
+        "tile_y": 2220,
+        "tile_w": 1024,
+        "tile_h": 888,
+        "center_x": 9728.0,
+        "center_y": 2664.0
+      },
+      "neighbors": [
+        "GodcroftsHex",
+        "TempestIslandHex",
+        "TheFingersHex"
+      ]
+    },
+    "FishermansRowHex": {
+      "region": "FishermansRowHex",
+      "display_name": "FishermansRow",
+      "stitch": {
+        "column": 3,
+        "row": 6
+      },
+      "pixel": {
+        "tile_x": 2304,
+        "tile_y": 2664,
+        "tile_w": 1024,
+        "tile_h": 888,
+        "center_x": 2816.0,
+        "center_y": 3108.0
+      },
+      "neighbors": [
+        "FarranacCoastHex",
+        "GutterHex",
+        "OarbreakerHex",
+        "PalantineBermHex",
+        "StemaLandingHex",
+        "WestgateHex"
+      ]
+    },
+    "KingsCageHex": {
+      "region": "KingsCageHex",
+      "display_name": "KingsCage",
+      "stitch": {
+        "column": 5,
+        "row": 6
+      },
+      "pixel": {
+        "tile_x": 3840,
+        "tile_y": 2664,
+        "tile_w": 1024,
+        "tile_h": 888,
+        "center_x": 4352.0,
+        "center_y": 3108.0
+      },
+      "neighbors": [
+        "FarranacCoastHex",
+        "LinnMercyHex",
+        "LochMorHex",
+        "SableportHex",
+        "StonecradleHex",
+        "WestgateHex"
+      ]
+    },
+    "DeadLandsHex": {
+      "region": "DeadLandsHex",
+      "display_name": "DeadLands",
+      "stitch": {
+        "column": 7,
+        "row": 6
+      },
+      "pixel": {
+        "tile_x": 5376,
+        "tile_y": 2664,
+        "tile_w": 1024,
+        "tile_h": 888,
+        "center_x": 5888.0,
+        "center_y": 3108.0
+      },
+      "neighbors": [
+        "CallahansPassageHex",
+        "DrownedValeHex",
+        "LinnMercyHex",
+        "LochMorHex",
+        "MarbanHollow",
+        "UmbralWildwoodHex"
+      ]
+    },
+    "ClahstraHex": {
+      "region": "ClahstraHex",
+      "display_name": "The Clahstra",
+      "stitch": {
+        "column": 9,
+        "row": 6
+      },
+      "pixel": {
+        "tile_x": 6912,
+        "tile_y": 2664,
+        "tile_w": 1024,
+        "tile_h": 888,
+        "center_x": 7424.0,
+        "center_y": 3108.0
+      },
+      "neighbors": [
+        "AllodsBightHex",
+        "DrownedValeHex",
+        "EndlessShoreHex",
+        "MarbanHollow",
+        "StlicanShelfHex",
+        "WeatheredExpanseHex"
+      ]
+    },
+    "TempestIslandHex": {
+      "region": "TempestIslandHex",
+      "display_name": "TempestIsland",
+      "stitch": {
+        "column": 11,
+        "row": 6
+      },
+      "pixel": {
+        "tile_x": 8448,
+        "tile_y": 2664,
+        "tile_w": 1024,
+        "tile_h": 888,
+        "center_x": 8960.0,
+        "center_y": 3108.0
+      },
+      "neighbors": [
+        "EndlessShoreHex",
+        "GodcroftsHex",
+        "LykosIsleHex",
+        "StlicanShelfHex",
+        "TheFingersHex",
+        "WrestaHex"
+      ]
+    },
+    "OarbreakerHex": {
+      "region": "OarbreakerHex",
+      "display_name": "Oarbreaker Isles",
+      "stitch": {
+        "column": 2,
+        "row": 7
+      },
+      "pixel": {
+        "tile_x": 1536,
+        "tile_y": 3108,
+        "tile_w": 1024,
+        "tile_h": 888,
+        "center_x": 2048.0,
+        "center_y": 3552.0
+      },
+      "neighbors": [
+        "FishermansRowHex",
+        "PalantineBermHex",
+        "StemaLandingHex"
+      ]
+    },
+    "WestgateHex": {
+      "region": "WestgateHex",
+      "display_name": "Westgate",
+      "stitch": {
+        "column": 4,
+        "row": 7
+      },
+      "pixel": {
+        "tile_x": 3072,
+        "tile_y": 3108,
+        "tile_w": 1024,
+        "tile_h": 888,
+        "center_x": 3584.0,
+        "center_y": 3552.0
+      },
+      "neighbors": [
+        "FarranacCoastHex",
+        "FishermansRowHex",
+        "KingsCageHex",
+        "OriginHex",
+        "SableportHex",
+        "StemaLandingHex"
+      ]
+    },
+    "LochMorHex": {
+      "region": "LochMorHex",
+      "display_name": "LochMor",
+      "stitch": {
+        "column": 6,
+        "row": 8
+      },
+      "pixel": {
+        "tile_x": 4608,
+        "tile_y": 3108,
+        "tile_w": 1024,
+        "tile_h": 888,
+        "center_x": 5120.0,
+        "center_y": 3552.0
+      },
+      "neighbors": [
+        "DeadLandsHex",
+        "HeartlandsHex",
+        "KingsCageHex",
+        "LinnMercyHex",
+        "SableportHex",
+        "UmbralWildwoodHex"
+      ]
+    },
+    "DrownedValeHex": {
+      "region": "DrownedValeHex",
+      "display_name": "DrownedVale",
+      "stitch": {
+        "column": 8,
+        "row": 8
+      },
+      "pixel": {
+        "tile_x": 6144,
+        "tile_y": 3108,
+        "tile_w": 1024,
+        "tile_h": 888,
+        "center_x": 6656.0,
+        "center_y": 3552.0
+      },
+      "neighbors": [
+        "AllodsBightHex",
+        "ClahstraHex",
+        "DeadLandsHex",
+        "MarbanHollow",
+        "ShackledChasmHex",
+        "UmbralWildwoodHex"
+      ]
+    },
+    "EndlessShoreHex": {
+      "region": "EndlessShoreHex",
+      "display_name": "EndlessShore",
+      "stitch": {
+        "column": 10,
+        "row": 8
+      },
+      "pixel": {
+        "tile_x": 7680,
+        "tile_y": 3108,
+        "tile_w": 1024,
+        "tile_h": 888,
+        "center_x": 8192.0,
+        "center_y": 3552.0
+      },
+      "neighbors": [
+        "AllodsBightHex",
+        "ClahstraHex",
+        "ReaversPassHex",
+        "StlicanShelfHex",
+        "TempestIslandHex",
+        "WrestaHex"
+      ]
+    },
+    "TheFingersHex": {
+      "region": "TheFingersHex",
+      "display_name": "TheFingers",
+      "stitch": {
+        "column": 12,
+        "row": 8
+      },
+      "pixel": {
+        "tile_x": 9216,
+        "tile_y": 3108,
+        "tile_w": 1024,
+        "tile_h": 888,
+        "center_x": 9728.0,
+        "center_y": 3552.0
+      },
+      "neighbors": [
+        "LykosIsleHex",
+        "PipersEnclaveHex",
+        "TempestIslandHex",
+        "TyrantFoothillsHex",
+        "WrestaHex"
+      ]
+    },
+    "StemaLandingHex": {
+      "region": "StemaLandingHex",
+      "display_name": "StemaLanding",
+      "stitch": {
+        "column": 3,
+        "row": 9
+      },
+      "pixel": {
+        "tile_x": 2304,
+        "tile_y": 3552,
+        "tile_w": 1024,
+        "tile_h": 888,
+        "center_x": 2816.0,
+        "center_y": 3996.0
+      },
+      "neighbors": [
+        "FishermansRowHex",
+        "OarbreakerHex",
+        "OriginHex",
+        "WestgateHex"
+      ]
+    },
+    "SableportHex": {
+      "region": "SableportHex",
+      "display_name": "Sableport",
+      "stitch": {
+        "column": 5,
+        "row": 9
+      },
+      "pixel": {
+        "tile_x": 3840,
+        "tile_y": 3552,
+        "tile_w": 1024,
+        "tile_h": 888,
+        "center_x": 4352.0,
+        "center_y": 3996.0
+      },
+      "neighbors": [
+        "AshFieldsHex",
+        "HeartlandsHex",
+        "KingsCageHex",
+        "LochMorHex",
+        "OriginHex",
+        "WestgateHex"
+      ]
+    },
+    "UmbralWildwoodHex": {
+      "region": "UmbralWildwoodHex",
+      "display_name": "UmbralWildwood",
+      "stitch": {
+        "column": 7,
+        "row": 9
+      },
+      "pixel": {
+        "tile_x": 5376,
+        "tile_y": 3552,
+        "tile_w": 1024,
+        "tile_h": 888,
+        "center_x": 5888.0,
+        "center_y": 3996.0
+      },
+      "neighbors": [
+        "DeadLandsHex",
+        "DrownedValeHex",
+        "GreatMarchHex",
+        "HeartlandsHex",
+        "LochMorHex",
+        "ShackledChasmHex"
+      ]
+    },
+    "AllodsBightHex": {
+      "region": "AllodsBightHex",
+      "display_name": "AllodsBight",
+      "stitch": {
+        "column": 9,
+        "row": 9
+      },
+      "pixel": {
+        "tile_x": 6912,
+        "tile_y": 3552,
+        "tile_w": 1024,
+        "tile_h": 888,
+        "center_x": 7424.0,
+        "center_y": 3996.0
+      },
+      "neighbors": [
+        "ClahstraHex",
+        "DrownedValeHex",
+        "EndlessShoreHex",
+        "ReaversPassHex",
+        "ShackledChasmHex",
+        "TerminusHex"
+      ]
+    },
+    "WrestaHex": {
+      "region": "WrestaHex",
+      "display_name": "Wresta",
+      "stitch": {
+        "column": 11,
+        "row": 9
+      },
+      "pixel": {
+        "tile_x": 8448,
+        "tile_y": 3552,
+        "tile_w": 1024,
+        "tile_h": 888,
+        "center_x": 8960.0,
+        "center_y": 3996.0
+      },
+      "neighbors": [
+        "EndlessShoreHex",
+        "OnyxHex",
+        "ReaversPassHex",
+        "TempestIslandHex",
+        "TheFingersHex",
+        "TyrantFoothillsHex"
+      ]
+    },
+    "PipersEnclaveHex": {
+      "region": "PipersEnclaveHex",
+      "display_name": "PipersEnclave",
+      "stitch": {
+        "column": 13,
+        "row": 9
+      },
+      "pixel": {
+        "tile_x": 9984,
+        "tile_y": 3552,
+        "tile_w": 1024,
+        "tile_h": 888,
+        "center_x": 10496.0,
+        "center_y": 3996.0
+      },
+      "neighbors": [
+        "TheFingersHex",
+        "TyrantFoothillsHex"
+      ]
+    },
+    "OriginHex": {
+      "region": "OriginHex",
+      "display_name": "Origin",
+      "stitch": {
+        "column": 4,
+        "row": 10
+      },
+      "pixel": {
+        "tile_x": 3072,
+        "tile_y": 3996,
+        "tile_w": 1024,
+        "tile_h": 888,
+        "center_x": 3584.0,
+        "center_y": 4440.0
+      },
+      "neighbors": [
+        "AshFieldsHex",
+        "SableportHex",
+        "StemaLandingHex",
+        "WestgateHex"
+      ]
+    },
+    "HeartlandsHex": {
+      "region": "HeartlandsHex",
+      "display_name": "Heartlands",
+      "stitch": {
+        "column": 6,
+        "row": 10
+      },
+      "pixel": {
+        "tile_x": 4608,
+        "tile_y": 3996,
+        "tile_w": 1024,
+        "tile_h": 888,
+        "center_x": 5120.0,
+        "center_y": 4440.0
+      },
+      "neighbors": [
+        "AshFieldsHex",
+        "GreatMarchHex",
+        "LochMorHex",
+        "RedRiverHex",
+        "SableportHex",
+        "UmbralWildwoodHex"
+      ]
+    },
+    "ShackledChasmHex": {
+      "region": "ShackledChasmHex",
+      "display_name": "ShackledChasm",
+      "stitch": {
+        "column": 8,
+        "row": 10
+      },
+      "pixel": {
+        "tile_x": 6144,
+        "tile_y": 3996,
+        "tile_w": 1024,
+        "tile_h": 888,
+        "center_x": 6656.0,
+        "center_y": 4440.0
+      },
+      "neighbors": [
+        "AcrithiaHex",
+        "AllodsBightHex",
+        "DrownedValeHex",
+        "GreatMarchHex",
+        "TerminusHex",
+        "UmbralWildwoodHex"
+      ]
+    },
+    "ReaversPassHex": {
+      "region": "ReaversPassHex",
+      "display_name": "ReaversPass",
+      "stitch": {
+        "column": 10,
+        "row": 10
+      },
+      "pixel": {
+        "tile_x": 7680,
+        "tile_y": 3996,
+        "tile_w": 1024,
+        "tile_h": 888,
+        "center_x": 8192.0,
+        "center_y": 4440.0
+      },
+      "neighbors": [
+        "AllodsBightHex",
+        "EndlessShoreHex",
+        "OnyxHex",
+        "TerminusHex",
+        "WrestaHex"
+      ]
+    },
+    "TyrantFoothillsHex": {
+      "region": "TyrantFoothillsHex",
+      "display_name": "TyrantFoothills",
+      "stitch": {
+        "column": 12,
+        "row": 10
+      },
+      "pixel": {
+        "tile_x": 9216,
+        "tile_y": 3996,
+        "tile_w": 1024,
+        "tile_h": 888,
+        "center_x": 9728.0,
+        "center_y": 4440.0
+      },
+      "neighbors": [
+        "OnyxHex",
+        "PipersEnclaveHex",
+        "TheFingersHex",
+        "WrestaHex"
+      ]
+    },
+    "AshFieldsHex": {
+      "region": "AshFieldsHex",
+      "display_name": "AshFields",
+      "stitch": {
+        "column": 5,
+        "row": 11
+      },
+      "pixel": {
+        "tile_x": 3840,
+        "tile_y": 4440,
+        "tile_w": 1024,
+        "tile_h": 888,
+        "center_x": 4352.0,
+        "center_y": 4884.0
+      },
+      "neighbors": [
+        "HeartlandsHex",
+        "OriginHex",
+        "RedRiverHex",
+        "SableportHex"
+      ]
+    },
+    "GreatMarchHex": {
+      "region": "GreatMarchHex",
+      "display_name": "GreatMarch",
+      "stitch": {
+        "column": 7,
+        "row": 11
+      },
+      "pixel": {
+        "tile_x": 5376,
+        "tile_y": 4440,
+        "tile_w": 1024,
+        "tile_h": 888,
+        "center_x": 5888.0,
+        "center_y": 4884.0
+      },
+      "neighbors": [
+        "AcrithiaHex",
+        "HeartlandsHex",
+        "KalokaiHex",
+        "RedRiverHex",
+        "ShackledChasmHex",
+        "UmbralWildwoodHex"
+      ]
+    },
+    "TerminusHex": {
+      "region": "TerminusHex",
+      "display_name": "Terminus",
+      "stitch": {
+        "column": 9,
+        "row": 11
+      },
+      "pixel": {
+        "tile_x": 6912,
+        "tile_y": 4440,
+        "tile_w": 1024,
+        "tile_h": 888,
+        "center_x": 7424.0,
+        "center_y": 4884.0
+      },
+      "neighbors": [
+        "AcrithiaHex",
+        "AllodsBightHex",
+        "ReaversPassHex",
+        "ShackledChasmHex"
+      ]
+    },
+    "OnyxHex": {
+      "region": "OnyxHex",
+      "display_name": "Onyx",
+      "stitch": {
+        "column": 11,
+        "row": 11
+      },
+      "pixel": {
+        "tile_x": 8448,
+        "tile_y": 4440,
+        "tile_w": 1024,
+        "tile_h": 888,
+        "center_x": 8960.0,
+        "center_y": 4884.0
+      },
+      "neighbors": [
+        "ReaversPassHex",
+        "TyrantFoothillsHex",
+        "WrestaHex"
+      ]
+    },
+    "RedRiverHex": {
+      "region": "RedRiverHex",
+      "display_name": "RedRiver",
+      "stitch": {
+        "column": 6,
+        "row": 12
+      },
+      "pixel": {
+        "tile_x": 4608,
+        "tile_y": 4884,
+        "tile_w": 1024,
+        "tile_h": 888,
+        "center_x": 5120.0,
+        "center_y": 5328.0
+      },
+      "neighbors": [
+        "AshFieldsHex",
+        "GreatMarchHex",
+        "HeartlandsHex",
+        "KalokaiHex"
+      ]
+    },
+    "AcrithiaHex": {
+      "region": "AcrithiaHex",
+      "display_name": "Acrithia",
+      "stitch": {
+        "column": 8,
+        "row": 12
+      },
+      "pixel": {
+        "tile_x": 6144,
+        "tile_y": 4884,
+        "tile_w": 1024,
+        "tile_h": 888,
+        "center_x": 6656.0,
+        "center_y": 5328.0
+      },
+      "neighbors": [
+        "GreatMarchHex",
+        "KalokaiHex",
+        "ShackledChasmHex",
+        "TerminusHex"
+      ]
+    },
+    "KalokaiHex": {
+      "region": "KalokaiHex",
+      "display_name": "Kalokai",
+      "stitch": {
+        "column": 7,
+        "row": 13
+      },
+      "pixel": {
+        "tile_x": 5376,
+        "tile_y": 5328,
+        "tile_w": 1024,
+        "tile_h": 888,
+        "center_x": 5888.0,
+        "center_y": 5772.0
+      },
+      "neighbors": [
+        "AcrithiaHex",
+        "GreatMarchHex",
+        "RedRiverHex"
+      ]
+    }
+  }
+}

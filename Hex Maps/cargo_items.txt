@@ -1,0 +1,436 @@
+.44 Mag (Crate)
+00MS “Stinger”
+03MM “Caster”
+03MM “Caster” (Crate)
+12.7mm (Crate)
+120-68 “Koronides” Field Gun
+120-68 “Koronides” Field Gun (Crate)
+120mm (Crate)
+14.5mm (Crate)
+150mm (Crate)
+20mm (Crate)
+228 Satterley Heavy Storm Rifle (Crate)
+250mm "Fury" Shell (Crate)
+250mm "Purity" Shell (Crate)
+30-250 “Tisiphone” Field Cannon
+30-250 “Tisiphone” Field Cannon (Crate)
+300mm (Crate)
+30mm (Crate)
+3C-High Explosive Rocket (Crate)
+40-250 “Alekto” Heavy Cannon
+40-45 “Smelter”
+40mm (Crate)
+4C-Fire Rocket (Crate)
+50-500 “Thunderbolt” Cannon
+50-500 “Thunderbolt” Cannon (Crate)
+68A-4 Ronan Fathomer
+68A-4 Ronan Fathomer (Crate)
+68mm (Crate)
+7.62mm (Crate)
+7.92mm (Crate)
+74b-1 Ronan Gunship
+74b-1 Ronan Gunship (Crate)
+75mm (Crate)
+81f-f Ronan Blackguard
+81f-f Ronan Blackguard (Crate)
+85K-a “Spatha”
+85K-b “Falchion”
+85K-b “Falchion” (Crate)
+85V-g "Talos"
+86K-a “Bardiche”
+86K-a “Bardiche” (Crate)
+86K-c “Ranseur”
+8mm (Crate)
+90T-v “Nemesis”
+90T-v “Nemesis” (Crate)
+912 Shrike Rounds (Crate)
+94.5mm (Crate)
+945g “Stygian Bolt”
+950-70b Anti-Aircraft Shell (Crate)
+9mm (Crate)
+A0E-9 Rocket Body
+A0E-9 Rocket Booster
+A0E-9 Rocket Warhead
+A3 Harpa Fragmentation Grenade (Crate)
+A51 Venti “Daedalus” (Crate)
+A59 Venti “Perdix” (Crate)
+AA-2 "Battering Ram"
+AA-2 "Battering Ram" (Crate)
+Aalto Storm Rifle 24 (Crate)
+AB-11 “Doru”
+AB-8 “Acheron”
+AB-8 “Acheron” (Crate)
+Abisme AT-99 Mine (Crate)
+Absol Anti-Aircraft Rounds (Crate)
+Ahti Model 2 (Crate)
+Air Raid Siren (Crate)
+Alligator Charge (Crate)
+Aluminum Alloy (Crate)
+Anti-Tank Sticky Bomb (Crate)
+AP/RPG (Crate)
+ARC/RPG (Crate)
+Argenti r.II Rifle (Crate)
+Assembly Materials I (Crate)
+Assembly Materials II (Crate)
+Assembly Materials III (Crate)
+Assembly Materials IV (Crate)
+Assembly Materials V (Crate)
+AU-A150 Taurine Rigger
+Auster’s Harness (Crate)
+Aviator’s Raiment (Crate)
+B2 Varsi Anti-Tank Grenade (Crate)
+Balfour Falconer 250mm
+Balfour Falconer 250mm (Crate)
+Balfour Rampart 68mm
+Balfour Stockade 75mm
+Balfour Wolfhound 40mm
+Balfour Wolfhound 40mm (Crate)
+Bandages (Crate)
+Bane 45 (Crate)
+Barbed Wire (Crate)
+Basic Materials (Crate)
+Bellweather by VAC
+Bellweather by VAC (Crate)
+BF5 White Ash Flask Grenade (Crate)
+Binoculars (Crate)
+Blakerow 871 (Crate)
+Blood Plasma (Crate)
+BMS - Aquatipper
+BMS - Aquatipper (Crate)
+BMS - Class 2 Mobile Auto-Crane
+BMS - Class 2 Mobile Auto-Crane (Crate)
+BMS - Fabricator
+BMS - Ironship
+BMS - Ironship (Crate)
+BMS - Packmule Flatbed
+BMS - Packmule Flatbed (Crate)
+BMS - Scrap Hauler
+BMS - Universal Assembly Rig
+BMS - Universal Assembly Rig (Crate)
+Bomastone Grenade (Crate)
+Bonesaw MK.3 (Crate)
+Booker Greyhound Model 910 (Crate)
+Booker Storm Rifle Model 838 (Crate)
+Buckhorn CCQ-18 (Crate)
+Buckshot (Crate)
+Caoivish Parka (Crate)
+Carnyx Anti-Tank Rocket Launcher (Crate)
+Cascadier 873 (Crate)
+Catara mo.II (Crate)
+Catena rt.IV Auto-Rifle (Crate)
+Clancy Cinder M3 (Crate)
+Clancy-Raca M4 (Crate)
+Cloudrunner’s Vesture (Crate)
+Cnute Cliffwrest
+Collins Cannon 68mm
+Collins Cannon 68mm (Crate)
+Colonial Aircraft Engine (Small) (Crate)
+Colonial Aircraft Mechanical Parts (Small) (Crate)
+Cometa T2-9 (Crate)
+Concrete Mixer
+Concrete Mixer (Crate)
+Construction Equipment
+Construction Equipment (Crate)
+Construction Materials (Crate)
+Construction Parts
+Copper Alloy (Crate)
+Cremari Mortar (Crate)
+Crow’s Foot Mine (Crate)
+Cutler Foebreaker (Crate)
+Cutler Launcher 4 (Crate)
+DAE 1b-2 “Serra”
+DAE 1b-2 “Serra” (Crate)
+DAE 1o-3 “Polybolos”
+DAE 1o-3 “Polybolos” (Crate)
+DAE 2a-1 “Ruptura”
+DAE 3b-2 “Hades’ Net”
+DAE 5b “Zeal”
+DAE 5b “Zeal” (Crate)
+Damaged Colonial Aircraft Engine (Small) (Crate)
+Damaged Colonial Aircraft Mechanical Parts (Small) (Crate)
+Damaged Warden Aircraft Engine (Small) (Crate)
+Damaged Warden Aircraft Mechanical Parts (Small) (Crate)
+Das Krokodil by VAC
+Das Krokodil by VAC (Crate)
+Daucus isg.III (Crate)
+Devitt Ironhide Mk. IV
+Devitt Mk. III
+Devitt Mk. III (Crate)
+Devitt-Caine Mk. IV MMR
+Diesel (Crate)
+Drummond 100a
+Drummond 100a (Crate)
+Drummond Loscann 55c
+Drummond Spitfire 100d
+Duncan’s Coin 14.5mm
+Dunne Caravaner 2f
+Dunne Caravaner 2f (Crate)
+Dunne Dousing Engine 3r
+Dunne Fuelrunner 2d
+Dunne Fuelrunner 2d (Crate)
+Dunne Landrunner 12c
+Dunne Leatherback 2a
+Dunne Loadlugger 3c
+Dunne Loadlugger 3c (Crate)
+Dunne Responder 3e
+Dunne Responder 3e (Crate)
+Dunne Transport
+Dunne Transport (Crate)
+E680-S Rudder Lock (Crate)
+E681-B Hullbreaker Mine (Crate)
+Eleos Infantry Dagger (Crate)
+Enriched Oil (Crate)
+Explosive Powder (Crate)
+Fabri Rucksack (Crate)
+Falias Raiding Club (Crate)
+Ferro 879 (Crate)
+Fiddler Submachine Gun Model 868 (Crate)
+First Aid Kit (Crate)
+Flame Ammo (Crate)
+Flare Mortar Shell (Crate)
+Flight Mask (Crate)
+Fuscina pi.I (Crate)
+G40 “Sagittarii”
+G40 “Sagittarii” (Crate)
+GA6 “Cestus”
+Gallagher Brigand Mk. I
+Gallagher Brigand Mk. I (Crate)
+Gallagher Highwayman Mk. III
+Gallagher Outlaw Mk. II
+Gallagher Thornfall Mk. VI
+Gas Mask (Crate)
+Gas Mask Filter (Crate)
+Gentleman’s Peacoat (Crate)
+Gravel (Crate)
+Green Ash Grenade (Crate)
+Grenadier’s Baldric (Crate)
+Gunner’s Breastplate (Crate)
+H-10 “Pelekys”
+H-19 “Vulcan”
+H-5 "Hatchet"
+H-5 "Hatchet" (Crate)
+H-8 “Kranesca”
+HA-1 “Sagaris”
+HA-1 “Sagaris” (Crate)
+Hammer (Crate)
+Havoc Charge (Crate)
+Havoc Charge Detonator (Crate)
+HC-2 “Scorpion”
+HC-2 “Scorpion” (Crate)
+HC-7 "Ballista"
+Heavy Explosive Powder (Crate)
+Heavy Oil (Crate)
+Heavy Topcoat (Crate)
+HH-a “Javelin”
+HH-a “Javelin” (Crate)
+HH-b “Hoplite”
+HH-d “Peltast”
+Huber Exalt 150mm
+Huber Exalt 150mm (Crate)
+Huber Lariat 120mm
+Huber Lariat 120mm (Crate)
+Huber Starbreaker 94.5mm
+Hydra’s Whisper (Crate)
+Ignifist 30 (Crate)
+Incendiary Mortar Shell (Crate)
+Infantry Battledress (Crate)
+Intelligence Center Parts
+Iron Alloy (Crate)
+K-81e “Sombre”
+K-81e “Sombre” (Crate)
+King Gallant Mk. II
+King Jester Mk. I-1
+King Spire Mk. I
+King Spire Mk. I (Crate)
+Kivela Power Wheel 80-1
+Kivela Power Wheel 80-1 (Crate)
+KLG901-2 Lunaire F (Crate)
+KRF1-750 Dragonfly (Crate)
+KRN886-127 Gast Machine Gun (Crate)
+KRR2-790 Omen (Crate)
+KRR3-792 Auger (Crate)
+Lamentum mm.IV (Crate)
+Leary AA-70 Bolas
+Leary AA-70 Bolas (Crate)
+Leary Shellbore 68mm
+Leary Shellbore 68mm (Crate)
+Leary Snare Trap 20
+Leary Snare Trap 20 (Crate)
+Legion Vexillum (Crate)
+Legionary Fatigues (Crate)
+Legionary’s Oilcoat (Crate)
+Liquid Container
+Liquid Container (Crate)
+Listening Kit (Crate)
+Lodesman’s Lorica (Crate)
+Luminary Mk. II Harbinger (Crate)
+Luminary Mk. IV Herald (Crate)
+Luminary Mk. VI Emissary (Crate)
+M925 Austringer Man-O-War (Crate)
+Maintenance Supplies (Crate)
+Malone MK.2 (Crate)
+Malone Ratcatcher MK.1 (Crate)
+Mammon 91-b (Crate)
+Mark II Raidbreaker (Crate)
+Material Pallet
+Material Pallet (Crate)
+Medic Fatigues (Crate)
+Mergo-4 “Myrmidon” (Crate)
+Metal Beam (Crate)
+Model-7 “Evie” (Crate)
+Mortar Shell (Crate)
+Mounted Bonesaw MK.3 (Crate)
+Mounted Fissura gd.I (Crate)
+Mulloy LPC
+Mulloy LPC (Crate)
+Naval Buoy (Crate)
+Naval Hull Segments
+Naval Shell Plating
+Naval Turbine Components
+Neville Anti-Tank Rifle (Crate)
+Niska Mk. I Gun Motor Carriage
+Niska Mk. I Gun Motor Carriage (Crate)
+Niska Mk. II Blinder
+Niska Mk. III Scar Twin
+Niska-Rycker Mk. IX Skycaller
+No.1 “The Liar” Submachinegun (Crate)
+No.2 Loughcaster (Crate)
+No.2B Hawthorne (Crate)
+No.4 The Pillory Scattergun (Crate)
+Noble Firebrand Mk. XVII
+Noble Widow MK. XIV
+Noble Widow MK. XIV (Crate)
+Officer’s Regalia (Crate)
+Officialis’ Attire (Crate)
+Oil (Crate)
+Outrider’s Mantle (Crate)
+O’Brien V.101 Freeman
+O’Brien V.110
+O’Brien V.110 (Crate)
+O’Brien V.113 Gravekeeper
+O’Brien V.121 Highlander
+O’Brien V.130 Wild Jack
+O’Brien V.190 Knave
+O’Brien V.190 Knave (Crate)
+O’Brien v.200 Squire
+Padded Boiler Suit (Crate)
+Paratrooper’s Ruck (Crate)
+Petrol (Crate)
+Physician’s Jacket (Crate)
+Pipe (Crate)
+Processed Construction Materials (Crate)
+PT-815 Smoke Grenade (Crate)
+Quillback Torpedo (Crate)
+R-1 Hauler
+R-1 Hauler (Crate)
+R-12 - “Salus” Ambulance
+R-12 - “Salus” Ambulance (Crate)
+R-12b - “Salva” Flame Truck
+R-15 - “Chariot”
+R-15 - “Chariot” (Crate)
+R-17 “Retiarius” Skirmisher
+R-5 “Atlas” Hauler
+R-5 “Atlas” Hauler (Crate)
+R-5b “Sisyphus” Hauler
+R-9 “Speartip” Escort
+Radio (Crate)
+Radio Backpack (Crate)
+Rare Alloys (Crate)
+Rare Materials (Crate)
+Rare Metal (Crate)
+Recon Camo (Crate)
+Refined Materials (Crate)
+Relic Materials (Crate)
+Remex Garb (Crate)
+Resource Container
+Resource Container (Crate)
+Rinnspeir Mk. I Zealot (Crate)
+Rinnspeir Ornitier-Class Gunship
+Rinnspeir Ornitier-Class Gunship (Crate)
+Rooster - Junkwagon
+Rooster - Junkwagon (Crate)
+Rooster - Lamploader
+Rooster - Lamploader (Crate)
+Rooster - Tumblebox
+Rooster - Tumblebox (Crate)
+RPG (Crate)
+RR-3 “Stolon” Tanker
+RR-3 “Stolon” Tanker (Crate)
+Rycker 4/3-F Wasp Nest
+Sampo Auto-Rifle 77 (Crate)
+Sandbag (Crate)
+Sapper Gear (Crate)
+SC-3 Aerial Interceptor Array Parts
+Sharkey-Devitt Birdeater Mk. I
+Sharkey-Devitt Birdeater Mk. I (Crate)
+Shatter Missile (Crate)
+Shipping Container
+Shipping Container (Crate)
+Shovel (Crate)
+Shrapnel Mortar Shell (Crate)
+Silverhand - Mk. IV
+Silverhand - Mk. IV (Crate)
+Silverhand Chieftain - Mk. VI
+Silverhand Lordscar - Mk. X
+Sledge Hammer (Crate)
+Soldier Supplies (Crate)
+Specialist’s Overcoat (Crate)
+Steel Construction Materials (Crate)
+Storm Cannon Parts
+Strider
+Strider (Crate)
+Structure Parts
+Swallowtail 988/127-2
+Swallowtail 988/127-2 (Crate)
+T12 “Actaeon” Tankette
+T12 “Actaeon” Tankette (Crate)
+T13 “Deioneus” Rocket Battery
+T14 “Vesta” Tankette
+T20 “Ixion” Tankette
+T3 “Xiphos”
+T3 “Xiphos” (Crate)
+T5 “Percutio”
+T8 “Gemini”
+Tankman’s Coveralls (Crate)
+The Hangman 757 (Crate)
+The Ospreay (Crate)
+Thermal Shielding (Crate)
+Toxot-902 “Blind Silver” (Crate)
+Trauma Kit (Crate)
+Tremola Grenade GPb-1 (Crate)
+Tripod (Crate)
+Tulka I1.9 White Raven (Crate)
+Tulka P4 Welkinrive (Crate)
+Type B - “Lucian”
+Type B - “Lucian” (Crate)
+Type C - “Charon”
+Type C - “Charon” (Crate)
+Underground Fortress Parts
+Unstable Substances (Crate)
+UV-05a “Argonaut”
+UV-05a “Argonaut” (Crate)
+UV-24 “Icarus”
+UV-5c “Odyssey”
+V-1 Tzykalia (Crate)
+V-5b Pegasus (Crate)
+Velian Flak Vest (Crate)
+Venom c.II 35 (Crate)
+Volta r.I Repeater (Crate)
+War Ensign (Crate)
+Warden Aircraft Engine (Small) (Crate)
+Warden Aircraft Mechanical Parts (Small) (Crate)
+Water (Crate)
+Water Bucket (Crate)
+Weather Station Parts
+Willow's Bane Ammo (Crate)
+Willow’s Bane Model 845 (Crate)
+Wind Sock (Crate)
+Wrench (Crate)
+“Dawn” Ve.II (Crate)
+“Dusk” ce.III (Crate)
+“Lionclaw” mc.VIII (Crate)
+“Molten Wind” v.II Ammo (Crate)
+“Molten Wind” v.II Flame Torch (Crate)
+“Quickhatch” Rt.I (Crate)
+“The Pitch Gun” mc.V (Crate)
+“Typhon” ra.XII (Crate)

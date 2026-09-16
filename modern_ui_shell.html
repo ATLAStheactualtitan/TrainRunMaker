@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Foxhole Train Run Maker</title>
+  <style>
+    :root {
+      --page: #071523;
+      --panel: #101a2c;
+      --panel-soft: #16223d;
+      --panel-lift: #203452;
+      --text: #eef6ff;
+      --muted: #aebde0;
+      --soft: #d8e4ff;
+      --line: #314b75;
+      --blue: #8ab4ff;
+      --green: #8fffc1;
+      --green-hot: #22c55e;
+      --shadow: rgba(0,0,0,0.5);
+      font-family: "Segoe UI", Inter, "Avenir Next", Arial, sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--text);
+      background:
+        radial-gradient(circle at 70% 6%, rgba(24, 92, 151, 0.45), transparent 24%),
+        radial-gradient(circle at 36% 92%, rgba(24, 150, 118, 0.22), transparent 20%),
+        var(--page);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+
+    .shell {
+      width: min(1300px, calc(100vw - 48px));
+      min-height: 680px;
+      background: rgba(10, 18, 30, 0.76);
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      box-shadow: 0 30px 120px var(--shadow);
+      padding: 12px;
+      display: flex;
+      gap: 12px;
+    }
+
+    .map-col {
+      flex: 1 1 auto;
+      background: var(--panel);
+      border-radius: 22px;
+      padding: 12px;
+      border: 1px solid var(--line);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .map-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 6px 8px 12px;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .app-title {
+      font-size: clamp(24px, 2vw, 34px);
+      font-weight: 800;
+      letter-spacing: 0.05em;
+    }
+
+    .app-sub {
+      color: var(--muted);
+      font-size: 11px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      margin-top: 4px;
+    }
+
+    .map-status {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--green);
+      font-size: 10px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 7px 12px;
+      background: rgba(76, 227, 176, 0.08);
+    }
+
+    .signal {
+      width: 6px;
+      height: 6px;
+      background: var(--green);
+      border-radius: 50%;
+      box-shadow: 0 0 0 1px var(--green), 0 0 12px var(--green);
+    }
+
+    .map-frame {
+      flex: 1;
+      min-height: 540px;
+      border-radius: 16px;
+      background:
+        linear-gradient(135deg, rgba(98, 147, 205, 0.04), transparent),
+        repeating-linear-gradient(45deg, transparent, transparent 7px, rgba(255,255,255,0.03) 8px),
+        #071126;
+      border: 1px solid var(--line);
+      margin-top: 12px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .map-grid {
+      position: absolute;
+      inset: 0;
+      background-image: radial-gradient(#203754 1px, transparent 1px);
+      background-size: 18px 18px;
+      opacity: 0.9;
+      mask-image: linear-gradient(to bottom, rgba(0,0,0,1), transparent 100%);
+    }
+
+    .map-canvas {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      background: transparent;
+    }
+
+    .right-panel {
+      width: 330px;
+      background: var(--panel);
+      border-radius: 22px;
+      padding: 16px;
+      border: 1px solid var(--line);
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .panel-title {
+      font-weight: 800;
+      font-size: 15px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--soft);
+    }
+
+    .controls {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    button {
+      appearance: none;
+      width: 100%;
+      background: var(--panel-soft);
+      color: var(--text);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 11px 13px;
+      font-family: inherit;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: background 220ms ease, border-color 220ms ease, transform 220ms ease;
+    }
+
+    button:hover {
+      background: var(--panel-lift);
+      border-color: var(--green);
+      transform: translateY(-1px);
+    }
+
+    .button-primary {
+      background: var(--green-hot);
+      color: #071523;
+      border-color: var(--green);
+    }
+
+    .status-panel {
+      background: rgba(0,0,0,0.2);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 12px;
+      color: var(--muted);
+      font-size: 11px;
+      line-height: 1.8;
+      min-height: 80px;
+    }
+
+    .phrase-output {
+      width: 100%;
+      min-height: 160px;
+      background: #0d1320;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      color: var(--text);
+      padding: 12px;
+      font-family: "Consolas", monospace;
+      font-size: 11px;
+      resize: vertical;
+    }
+
+    .route-mini {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--muted);
+      font-size: 10px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    @media (max-width: 940px) {
+      .shell { flex-wrap: wrap; }
+      .right-panel { width: 100%; }
+      .map-frame { min-height: 420px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <section class="map-col">
+      <section class="map-top">
+        <div>
+          <div class="app-title">Foxhole Train Run Maker</div>
+          <div class="app-sub">Live-1 route map</div>
+        </div>
+        <div class="map-status">
+          <span class="signal"></span>
+          <span>Map Online</span>
+        </div>
+      </section>
+      <section class="map-frame">
+        <div class="map-grid"></div>
+        <canvas class="map-canvas" id="mapCanvas"></canvas>
+      </section>
+    </section>
+
+    <aside class="right-panel">
+      <div class="panel-title">Controls</div>
+      <div class="controls">
+        <button class="button-primary">Refresh Live Map</button>
+        <button>Generate Phrases</button>
+        <button>Export Phrases (.txt)</button>
+        <button>Show Train Plan</button>
+        <button>Zoom In</button>
+        <button>Zoom Out</button>
+        <button>Clear Selection</button>
+        <button>Reset Zoom</button>
+        <button>Open Output Folder</button>
+      </div>
+
+      <section class="status-panel">
+        <div>Live map loading...</div>
+      </section>
+
+      <section>
+        <div class="panel-title">Route Output</div>
+        <textarea class="phrase-output" id="phrase-output">LOGI CHAT MESSAGE: [✚CMRC] Train travelling from Alpha to Bravo
+REGION CHAT MESSAGES: [✚CMRC] Train travelling from Alpha to Bravo via Region A, Region B -> Border</textarea>
+      </section>
+
+      <div class="route-mini">
+        <span></span>
+        <span>Route Planner / CMRC</span>
+      </div>
+    </aside>
+  </div>
+</body>
+</html>

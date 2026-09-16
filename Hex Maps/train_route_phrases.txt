@@ -1,0 +1,8 @@
+LOGI CHAT MESSAGE
+[✚CMRC] Train travelling from Terminus to Drowned Vale
+
+REGION CHAT MESSAGES
+[✚CMRC] Train travelling from Terminus to Acrithia via Therizó, Cerberus Wake -> Border
+[✚CMRC] Train travelling from Acrithia to Shackled Chasm via Camp Omicron -> Border
+[✚CMRC] Train travelling from Shackled Chasm to Drowned Vale via Simo's Run, The Vanguard, Firstmarch, The Grave of Erastos -> Border
+[✚CMRC] Train travelling to The Baths in Drowned Vale via Coaldrifter Stead, Bootnap, The Baths
