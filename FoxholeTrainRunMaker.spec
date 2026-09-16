@@ -2,6 +2,8 @@ from pathlib import Path
 import sys
 
 project_root = Path(SPECPATH)
+is_macos = sys.platform == "darwin"
+is_windows = sys.platform == "win32"
 
 a = Analysis(
     [str(project_root / "foxhole_train_run_app.py")],
@@ -26,6 +28,7 @@ exe = EXE(
     a.scripts,
     [],
     exclude_binaries=True,
+    icon=str(project_root / "assets" / "FoxholeTrainRunMaker.ico") if is_windows else None,
     name="FoxholeTrainRunMaker",
     debug=False,
     bootloader_ignore_signals=False,
@@ -43,10 +46,10 @@ coll = COLLECT(
     name="FoxholeTrainRunMaker",
 )
 
-if sys.platform == "darwin":
+if is_macos:
     app = BUNDLE(
         coll,
         name="FoxholeTrainRunMaker.app",
-        icon=None,
+        icon=str(project_root / "assets" / "FoxholeTrainRunMaker.icns"),
         bundle_identifier="com.cmrc.foxholetrainrunmaker",
     )

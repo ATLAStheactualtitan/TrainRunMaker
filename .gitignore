@@ -8,3 +8,5 @@ build/
 dist/
 *.py[cod]
 .DS_Store
+assets/icon-1024.png
+assets/icon.iconset/
